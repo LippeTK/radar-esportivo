@@ -1,0 +1,22 @@
+.field-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.event-text {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+image {
+  display: block;
+}
+.field-image {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  display: block;
+}

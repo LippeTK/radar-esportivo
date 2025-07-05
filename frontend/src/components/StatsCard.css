@@ -1,0 +1,13 @@
+.stats-card {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #131924;
+}
+.stats-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.stats-values {
+  padding-top: 25px;
+}

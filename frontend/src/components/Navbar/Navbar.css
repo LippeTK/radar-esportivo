@@ -1,0 +1,23 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11vh;
+  padding: 0 4rem;
+  background-color: #0b3d2e;
+}
+.navbar-navigation nav h3 {
+  padding-right: 1em;
+}
+.navbar-navigation nav h3 a:hover {
+  transition: 0.2s;
+  color: #0d1117;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-navigation nav {
+  display: flex;
+}
