@@ -1,3 +1,69 @@
+# Football Radar  
+Real-time football match radar, with integration between frontend and backend via REST routes. External API consumption using Node, dynamic updates via polling, Redis caching, and a responsive interface built with React.
+
+## 🖥️ Frontend  
+- React.js with Vite  
+- React Router DOM for navigation between pages  
+- Asynchronous requests to the backend via Axios  
+- Responsive CSS, adapting the interface for smaller screens
+
+## ⚙️ Backend  
+- Node.js with Express  
+- Structure with controllers and routes  
+- Integration with the external API from api-football  
+- Data updates using polling  
+- Redis for caching and reducing repeated requests
+
+## Features  
+- Live match list  
+- Complete match details:  
+  - Real-time score  
+  - Match time  
+  - Lineups  
+  - Events  
+  - Statistics
+
+## About the API  
+This project uses the [Api-Football](https://www.api-football.com/) API to retrieve real-time football match data.
+
+⚠️ Attention: the API requires an access key (API Key), which is currently linked to a paid plan.  
+Therefore, the project will not work properly without a valid key.
+
+If you want to test it locally, you can:
+
+- Request access to the API from the official website  
+- Create a `.env` file based on the `.env.example`  
+- The codebase is prepared to work as soon as a valid key is provided in the `.env` file.
+
+## 🛠️ How to run locally  
+
+Clone the repository:
+```bash
+git clone git@github.com:LippeTK/radar-esportivo.git
+```
+Install the dependencies:
+
+   cd backend && npm install
+
+   cd ../frontend && npm install
+
+Create the .env file in the backend folder with your API key.
+
+Run backend and frontend separately:
+
+```
+cd backend
+npm start
+cd ../frontend
+npm run dev
+```
+📸 Preview
+Want to see the project in action? Check it out **[here](https://imgur.com/a/6acBmpG)**!
+
+Developed by Felipe Carvalho
+
+
+
 # Radar de futebol
 
 Radar de partidas de futebol em tempo real, com integração entre frontend e backend próprio via rotas REST.
@@ -49,7 +115,7 @@ A estrutura do código está preparada para funcionar assim que uma chave for fo
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/radar.git
+   git clone git@github.com:LippeTK/radar-esportivo.git
 
    ```
 
