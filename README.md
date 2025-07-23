@@ -26,8 +26,7 @@ Real-time football match radar, with integration between frontend and backend vi
 ## About the API  
 This project uses the [Api-Football](https://www.api-football.com/) API to retrieve real-time football match data.
 
-⚠️ Attention: the API requires an access key (API Key), which is currently linked to a paid plan.  
-Therefore, the project will not work properly without a valid key.
+⚠️ Attention: the API requires an access key (API Key), the project will not work properly without a valid key.
 
 If you want to test it locally, you can:
 
@@ -100,8 +99,7 @@ Consumo de API externa com Node, atualizações dinâmicas via polling, cache co
 
 Este projeto utiliza a [API da api-football](https://www.api-football.com/) para obter dados em tempo real de partidas de futebol.
 
-⚠️ **Atenção:** a API requer uma chave de acesso (API Key), que atualmente está vinculada a um plano pago.  
-Por isso, o projeto **não funcionará corretamente sem uma chave válida**.
+⚠️ **Atenção:** a API requer uma chave de acesso (API Key), o projeto **não funcionará corretamente sem uma chave válida**.
 
 Caso deseje testar localmente, você pode:
 
