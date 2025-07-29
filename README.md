@@ -36,33 +36,6 @@ Este projeto utiliza a [API da api-football](https://www.api-football.com/) para
 
 ⚠️ **Atenção:** a API requer uma chave de acesso (API Key), o projeto **não funcionará corretamente sem uma chave válida**.
 
-## 💾 Redis (cache)
-
-Este projeto utiliza **Redis** para armazenar dados em cache e evitar múltiplas chamadas à API externa.
-### Windows
-
-- **Recomendado**: usar o Redis via [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install)
-- **Alternativas**: instalar via [Memurai](https://www.memurai.com/) ou usar [Docker](https://hub.docker.com/_/redis)
-
-### 🐧 Linux (Ubuntu/Debian)
-```
-bash
-sudo apt update
-sudo apt install redis-server
-sudo systemctl enable redis
-sudo systemctl start redis
-
-shell
-Copiar
-Editar
-```
-### Como verificar se o Redis está rodando
-```
-bash
-redis-cli ping
-#Esperado: PONG
-```
-
 ## 🛠️ Como rodar localmente
 
 1. Clone o repositório:
@@ -78,13 +51,40 @@ redis-cli ping
 
    cd ../frontend && npm install
 
-3. Crie o arquivo .env na pasta backend com sua chave da API.
+3. ## 💾 Redis (cache)
+
+Este projeto utiliza **Redis** para armazenar dados em cache e evitar múltiplas chamadas à API externa.
+###3 Windows
+
+- **Recomendado**: usar o Redis via [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install)
+- **Alternativas**: instalar via [Memurai](https://www.memurai.com/) ou usar [Docker](https://hub.docker.com/_/redis)
+
+#### 🐧 Linux (Ubuntu/Debian)
+```
+bash
+sudo apt update
+sudo apt install redis-server
+sudo systemctl enable redis
+sudo systemctl start redis
+
+shell
+Copiar
+Editar
+```
+#### Como verificar se o Redis está rodando
+```
+bash
+redis-cli ping
+#Esperado: PONG
+```
+
+4. Crie o arquivo .env na pasta backend com sua chave da API.
    
-4. - Solicitar acesso à API no site oficial
+5. - Solicitar acesso à API no site oficial
 - Criar `.env` com base no `.env.example`
 A estrutura do código está preparada para funcionar assim que uma chave for fornecida no `.env`.
 
-5. Rode o backend e o frontend separadamente:
+6. Rode o backend e o frontend separadamente:
 
 ```
   cd backend
