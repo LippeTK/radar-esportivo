@@ -78,14 +78,12 @@ Este projeto utiliza a [API da api-football](https://www.api-football.com/) para
     redis-cli ping
     #Esperado: PONG
     ```
-
-4. Criar o arquivo .env na pasta backend com sua chave da API.
    
-5. Solicitar acesso à API no site oficial
+4. Solicitar acesso à API no site oficial
 - Criar `.env` com base no `.env.example`
 A estrutura do código está preparada para funcionar assim que uma chave for fornecida no `.env`.
 
-6. Rode o backend e o frontend separadamente:
+5. Rode o backend e o frontend separadamente:
 
 ```
   cd backend
