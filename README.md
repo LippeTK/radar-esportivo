@@ -80,10 +80,11 @@
     ```
    
 4. Solicitar acesso à API no site oficial
+   
     Criar `.env` com base no `.env.example`
     A estrutura do código está preparada para funcionar assim que uma chave for fornecida no `.env`.
 
-5. Rode o backend e o frontend separadamente:
+6. Rode o backend e o frontend separadamente:
   
   ```
     cd backend
