@@ -63,13 +63,6 @@ redis-cli ping
 #Esperado: PONG
 ```
 
-## Como rodar localmente:
-
-- Solicitar acesso à API no site oficial
-- Criar `.env` com base no `.env.example`
-
-A estrutura do código está preparada para funcionar assim que uma chave for fornecida no `.env`.
-
 ## 🛠️ Como rodar localmente
 
 1. Clone o repositório:
@@ -86,8 +79,12 @@ A estrutura do código está preparada para funcionar assim que uma chave for fo
    cd ../frontend && npm install
 
 3. Crie o arquivo .env na pasta backend com sua chave da API.
+   
+4. - Solicitar acesso à API no site oficial
+- Criar `.env` com base no `.env.example`
+A estrutura do código está preparada para funcionar assim que uma chave for fornecida no `.env`.
 
-4. Rode o backend e o frontend separadamente:
+5. Rode o backend e o frontend separadamente:
 
 ```
   cd backend
