@@ -53,30 +53,30 @@ Este projeto utiliza a [API da api-football](https://www.api-football.com/) para
 
 3. ## 💾 Redis (cache)
 
-Este projeto utiliza **Redis** para armazenar dados em cache e evitar múltiplas chamadas à API externa.
-### Windows
-
-- **Recomendado**: usar o Redis via [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install)
-- **Alternativas**: instalar via [Memurai](https://www.memurai.com/) ou usar [Docker](https://hub.docker.com/_/redis)
-
-#### 🐧 Linux (Ubuntu/Debian)
-```
-bash
-sudo apt update
-sudo apt install redis-server
-sudo systemctl enable redis
-sudo systemctl start redis
-
-shell
-Copiar
-Editar
-```
-#### Como verificar se o Redis está rodando
-```
-bash
-redis-cli ping
-#Esperado: PONG
-```
+    Este projeto utiliza **Redis** para armazenar dados em cache e evitar múltiplas chamadas à API externa.
+    ### Windows
+    
+    - **Recomendado**: usar o Redis via [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install)
+    - **Alternativas**: instalar via [Memurai](https://www.memurai.com/) ou usar [Docker](https://hub.docker.com/_/redis)
+    
+    #### 🐧 Linux (Ubuntu/Debian)
+    ```
+    bash
+    sudo apt update
+    sudo apt install redis-server
+    sudo systemctl enable redis
+    sudo systemctl start redis
+    
+    shell
+    Copiar
+    Editar
+    ```
+    #### Como verificar se o Redis está rodando
+    ```
+    bash
+    redis-cli ping
+    #Esperado: PONG
+    ```
 
 4. Criar o arquivo .env na pasta backend com sua chave da API.
    
