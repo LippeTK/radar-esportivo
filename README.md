@@ -54,7 +54,7 @@ Este projeto utiliza a [API da api-football](https://www.api-football.com/) para
 3. ## 💾 Redis (cache)
 
 Este projeto utiliza **Redis** para armazenar dados em cache e evitar múltiplas chamadas à API externa.
-###3 Windows
+### Windows
 
 - **Recomendado**: usar o Redis via [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install)
 - **Alternativas**: instalar via [Memurai](https://www.memurai.com/) ou usar [Docker](https://hub.docker.com/_/redis)
