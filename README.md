@@ -24,6 +24,7 @@ Consumo de API externa com Node, atualizações dinâmicas via polling, cache co
 
 - Lista de partidas ao vivo
 - Detalhamento completo da partida:
+  
   - Placar em tempo real
   - Tempo de jogo
   - Escalações
@@ -51,7 +52,7 @@ Este projeto utiliza a [API da api-football](https://www.api-football.com/) para
 
    cd ../frontend && npm install
 
-3. ## 💾 Redis (cache)
+3. Redis (cache)
 
     Este projeto utiliza **Redis** para armazenar dados em cache e evitar múltiplas chamadas à API externa.
     ### Windows
