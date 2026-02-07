@@ -46,6 +46,9 @@
   
   ⚠️ **Atenção:** a API requer uma chave de acesso (API Key), o projeto **não funcionará corretamente sem uma chave válida**.
 
+  No momento a API está ativa com o plano gratuito, com 100 requisições por dia, portanto, o polling foi reduzido para não buscar dados a todo momento.
+  No entanto, com a API paga, é possível atualizar mais frequentemente, mantendo o radar praticamente ao vivo.
+
 ## 🛠️ Como rodar localmente
 
 1. Clone o repositório:
