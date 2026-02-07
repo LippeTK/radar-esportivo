@@ -5,6 +5,13 @@
 
   Cache com Redis, reduzindo o tempo médio de resposta de ~738ms (API externa) para ~0.9ms (Redis) — tornando o backend +800x mais rápido em requisições subsequentes.
 
+
+## Preview da tela inicial contendo os jogos ao vivo no dia
+  ![Preview tela de jogos ao vivo](screenshots/jogosAoVivo.png)
+## Preview do radar funcionando com os dados de um jogo ao vivo 
+(Fiorentina x Torino - 07/02/2026, 70 min de jogo)
+  ![Preview jogo rodando](screenshots/Jogo.png)
+
 ## Tecnologias
 
 ### 🖥️ Frontend
